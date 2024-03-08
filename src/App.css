@@ -1,0 +1,25 @@
+body{
+  background-color: rgb(39, 39, 39) !important;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+html, body {
+  height: 100%;
+}
+.app-body{
+  margin-top: 70px;
+  margin-left: 250px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 10px;
+  height: calc(100% - 100px); /* Subtract the margin-top */
+  overflow: auto;
+}
+
+h2{
+  text-align: center;
+  color: white !important;
+}
