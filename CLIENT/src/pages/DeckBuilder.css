@@ -1,0 +1,48 @@
+.card-library{
+  background-color: rgb(105, 105, 105);
+  border-radius: 10px;
+  border: 1px solid #000;
+  width: 800px;
+  min-width: 700px;
+  max-height: calc(100vh - 100px); /* Set the height to 100% of the viewport height */
+  overflow-y: auto; /* Make the content scrollable */
+  position: relative; /* Needed for the height to work correctly */
+}
+
+.cards-container{
+width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.card-item{
+margin: 0;
+width: 10rem;
+background-color: transparent !important;
+}
+
+.card-title{
+color: white !important;
+font-size: 1rem;
+font-weight: bold;
+text-align: center;
+}
+
+.delete-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0px;
+  padding-top: 0px;
+  height: 15px;
+  text-align: center;
+  background-color: red;
+  color: white;
+  padding-bottom: 3px;
+}
+
